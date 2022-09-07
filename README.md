@@ -8,10 +8,10 @@ Para obter os detalhes execute o seguinte comando:
 Aplicativo UnZip.jar
 Abaixo segue uma lista com os possveis parametros para serem utilizados:
 
-* -a|--ajuda    Lista parametros para ajuda.
-* -r            Se existir esse parametro ele deleta o arquivo depois de descompactado.
-* -zip=         Informar aonde est o arquivo para ser descompactado 
-	* ex.: '-zip="C:\MinhaPasta\MeuArquivo.zip"'
-* -saida=       Informar aonde deseja descompactar o arquivo 
-	* ex.: '-saida="C:\MinhaPasta\NestaPasta\" - Caso não informe será descompactado no local.'
+| Parametro 	| Descrição | Exemplo | Obrigatório |
+|---------------|-----------|---------|--------------|
+| -a  <br/> --ajuda  | Lista parametros para ajuda. 	 					  | java -jar UnZip -a | Não |
+| -r            | Se existir esse parametro ele deleta o arquivo depois de descompactado. |java -jar UnZip -zip="C:\MinhaPasta\MeuArquivo.zip" -r | Não |
+| -zip=         | Informar aonde est o arquivo para ser descompactado | java -jar UnZip -zip="C:\MinhaPasta\MeuArquivo.zip" 	| Sim |
+| -saida=       | Informar aonde deseja descompactar o arquivo | java -jar UnZip  -zip="C:\MinhaPasta\MeuArquivo.zip" -saida="C:\MinhaPasta\NestaPasta\" | Não |
 
